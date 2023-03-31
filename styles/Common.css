@@ -1,0 +1,19 @@
+/* h1 {
+    color:blueviolet;
+    /* text-decoration:underline; */
+/* } */ 
+
+/* p{
+    background-color: yellowgreen;
+    color:black;
+
+} */
+body{
+    margin: 0px;
+    font-family:'ubuntu',sans-serif;
+    background-color: #f2f2f2;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab',serif;
+}
+

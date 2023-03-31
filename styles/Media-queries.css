@@ -1,0 +1,124 @@
+/* this allows a web page be easily manupulated and accessed on amy device like phone */
+/* it uses the @ symbol */
+/* its called at the very end of styles */
+
+@media (max-width:615px){
+    .navigation-wrapper{
+        flex-direction:column;
+        height:100%;
+    }
+    /* Index page section */
+    .navigation-wrapper> .left-column{
+        order:2;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    
+    }
+    .navigation-wrapper> .center-column{
+        order:1;
+        width:100%;
+        
+    }
+    .navigation-wrapper> .right-column{
+        order:3;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+    }
+    .links-wrapper{
+        flex-direction: column;
+        margin-bottom:20px;
+    
+    }
+    .links-wrapper> .nav-link{
+        margin-top:10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+    }
+    
+    .hero-section {
+        padding:50px 10px;
+    
+    }
+    .features-section{
+        height:100%;
+    }
+    
+    .features-section> .columns-wrapper{
+        width:100%;
+        flex-direction: column;
+    }
+    .footer{
+        height:100%;
+    }
+    /* About Section */
+    .skewed-header>.skewed-header-wrapper> .skewed-header-content{
+        flex-direction: column;
+    }
+    .skewed-header> .header-bg{
+        background-size: 550px;
+    }
+    .page-conatiner{
+        padding-left:21px;
+        padding-right:21px;
+    }
+    
+    .content-wrapper> #imag {
+        /* Important helps stress the code as to overite the previous set code */
+        margin:0px 0px 25px 0px !important;
+        width:100% !important;
+    }
+    
+    .square{
+        grid-template-columns: 1fr !important;
+    
+    }
+    .square>.square-text-wrapper{
+        order:1;
+    }
+    .square> .img-wrapper{
+        order:2;
+    }
+    
+    /* Menu Styles */
+    /* content auto updated aftersetting up the nav bar and about us page */
+    
+    /* Contact Stypes */
+    .contact-grid-wrapper{
+        width:100%;
+        grid-template-columns: 1fr;
+        grid-gap:10px;
+    }
+    
+    .form input{
+        padding: 1.5rem 0rem;
+    }
+    .form textarea {
+        padding: 1.5rem 0rem;
+    }
+
+    .donate-header h1 {
+        font-size: 1.5rem;
+      }
+      .page-container p {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        /* padding-left: 21px;
+        padding-right: 21px; */
+      }
+
+      /* .payment-options{
+        flex-direction:column;
+        height:100%;
+      } */
+      h3 {
+        font-size: 1.2rem;
+      }
+      .payment-dropdown-content p {
+        font-size: 0.9rem;
+      }
+    
+
+}
+
